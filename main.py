@@ -71,22 +71,3 @@ result = agent_with_custom_tools.invoke(
 
 print(result)
 print(type(result))
-
-
-
-
-
-
-
-
-
-
-
-
-
-def main():
-    print("Hello from mise-a-niveau!")
-
-
-if __name__ == "__main__":
-    main()
