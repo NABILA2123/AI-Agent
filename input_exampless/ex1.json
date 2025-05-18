@@ -1,22 +1,26 @@
 {
-    "student_id": "12345",
-    "quiz_id": "math_001",
-    "responses": [
-      {
-        "question_id": "q1",
-        "selected_option": "B",
-        "correct_option": "A",
-        "topic": "algebra",
-        "subtopic": "linear_equations",
-        "difficulty": "medium"
-      },
-      {
-        "question_id": "q2",
-        "selected_option": "C",
-        "correct_option": "C",
-        "topic": "geometry",
-        "subtopic": "triangles",
-        "difficulty": "easy"
+  "input": {
+      "student_id": "12345",
+      "quiz_id": "math_001",
+      "responses": [
+          {
+          "question_id": "q1",
+          "question": "What is 2 + 2?",
+          "selected_option": "B",
+          "correct_option": "A",
+          "topic": "algebra",
+          "subtopic": "linear_equations",
+          "difficulty": "medium"
+          },
+          {
+          "question_id": "q2",
+          "question": "What is the area of a triangle with base 5 and height 10?",
+          "selected_option": "C",
+          "correct_option": "C",
+          "topic": "geometry",
+          "subtopic": "triangles",
+          "difficulty": "easy"
+          }
+      ]
       }
-    ]
-}
+  }
